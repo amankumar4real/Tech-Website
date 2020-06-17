@@ -1,0 +1,15 @@
+.footer {
+    /* position: fixed; */
+    /* left: 0;
+    bottom: 0; */
+    /* position:absolute; */
+    bottom:0;
+    width: 100%;
+    background-color: rgb(218, 234, 252);
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+.copy{
+  color: rgb(97, 97, 97);
+}
