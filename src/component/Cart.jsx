@@ -29,7 +29,10 @@ class Cart extends React.Component {
         }
         else{
             return (
-            this.props.cart_data.map(a=>(
+                // 
+            <>
+            <h1 class="font-weight-bolder mb-5 col-12 text-center">CART</h1>
+            {this.props.cart_data.map(a=>(
                 <>
                     <div class="card m-5" style={{width: "20rem"}}>
                         <img src={a.image} class="card-img-top" alt={`cart_${a.id}`}/>
@@ -40,7 +43,8 @@ class Cart extends React.Component {
                         </div>
                     </div>
                 </>
-            ))
+            ))}
+            </>
         )}
         
     }

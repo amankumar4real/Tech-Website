@@ -31,7 +31,7 @@ export default class SmartPhones extends React.Component{
         return(
                 tab_data.map(a=>(
                     <>
-                        <div class="col-11 card m-5" style={{maxWidth: "540px"}}>
+                        <div class="col-11 card my-5 mx-auto" style={{maxWidth: "540px"}}>
                             <div class="row no-gutters">
                                 <div class="col-md-4 m-auto">
                                 <img src={a.image} class="card-img" alt="..."/>
